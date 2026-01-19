@@ -4,41 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="landing page kalkulator">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>kalkulator</title>
 </head>
-<body>
-    <main>
-        <section class="kalkulator">
-            <div class="display">
-                0
-            </div>
-            <section class="btn-grid">
-                <button class="btn">clr</button>
-                <button class="btn">DEL</button>
-                <button class="btn">%</button>
-                <button class="btn operator">/</button>
+<body class="bg-purple-100 min-h-screen grid place-items-center">
+    <main class="bg-gray-200 p-6 rounded-3xl shadow-[10px_10px_30px_rgba(0,0,0,0.1),_10px_-10px_30px_rgba(255,255,255,0.7)] w-72">
+      <div class="bg-gray-300 rounded-2xl p-5 mb-6 text-right text-4xl text-gray-600">
+        0
+      </div>
+      
+      <section class="grid grid-cols-4 gap-4">
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">clr</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">DEL</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">%</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer ">/</button>
                 
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn operator">*</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">7</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">8</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">9</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer ">*</button>
                 
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn operator">-</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">4</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">5</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">6</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer ">-</button>
 
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn operator">+</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">1</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">2</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">3</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer ">+</button>
             
-                <button class="btn">.</button>
-                <button class="btn">0</button>
-                <button class="btn equals">=</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">.</button>
+                <button class="rounded-full p-5 bg-gray-200 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-600 cursor-pointer">0</button>
+                <button class="col-span-2 rounded-3xl p-5 bg-pink-200 shadow-[6px_6px_12px_#e9a0ad,-6px_-6px_12px_#ffcce0] text-gray-600 cursor-pointer">=</button>
             </section>
-        </section>
     </main>
 </body>
 </html>
+
